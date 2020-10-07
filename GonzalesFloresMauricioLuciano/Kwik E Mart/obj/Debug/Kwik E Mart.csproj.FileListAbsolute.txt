@@ -1,0 +1,6 @@
+D:\UTN\2°Cuatrimestre\(Lu-Mar)-Program&Lab II\Parcial ProgramLab\GonzalesFloresMauricioLuciano\Kwik E Mart\obj\Debug\Kwik E Mart.csprojAssemblyReference.cache
+D:\UTN\2°Cuatrimestre\(Lu-Mar)-Program&Lab II\Parcial ProgramLab\GonzalesFloresMauricioLuciano\Kwik E Mart\obj\Debug\Kwik E Mart.csproj.CoreCompileInputs.cache
+D:\UTN\2°Cuatrimestre\(Lu-Mar)-Program&Lab II\Parcial ProgramLab\GonzalesFloresMauricioLuciano\Kwik E Mart\bin\Debug\Kwik E Mart.dll
+D:\UTN\2°Cuatrimestre\(Lu-Mar)-Program&Lab II\Parcial ProgramLab\GonzalesFloresMauricioLuciano\Kwik E Mart\bin\Debug\Kwik E Mart.pdb
+D:\UTN\2°Cuatrimestre\(Lu-Mar)-Program&Lab II\Parcial ProgramLab\GonzalesFloresMauricioLuciano\Kwik E Mart\obj\Debug\Kwik E Mart.dll
+D:\UTN\2°Cuatrimestre\(Lu-Mar)-Program&Lab II\Parcial ProgramLab\GonzalesFloresMauricioLuciano\Kwik E Mart\obj\Debug\Kwik E Mart.pdb

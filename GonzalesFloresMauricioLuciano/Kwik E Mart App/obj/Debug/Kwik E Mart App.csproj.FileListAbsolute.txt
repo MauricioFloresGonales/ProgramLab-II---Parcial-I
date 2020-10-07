@@ -1,0 +1,16 @@
+D:\UTN\2°Cuatrimestre\(Lu-Mar)-Program&Lab II\Parcial ProgramLab\GonzalesFloresMauricioLuciano\Kwik E Mart App\obj\Debug\Kwik E Mart App.csprojAssemblyReference.cache
+D:\UTN\2°Cuatrimestre\(Lu-Mar)-Program&Lab II\Parcial ProgramLab\GonzalesFloresMauricioLuciano\Kwik E Mart App\obj\Debug\Kwik_E_Mart_App.FrmPrincipal.resources
+D:\UTN\2°Cuatrimestre\(Lu-Mar)-Program&Lab II\Parcial ProgramLab\GonzalesFloresMauricioLuciano\Kwik E Mart App\obj\Debug\Kwik_E_Mart_App.Properties.Resources.resources
+D:\UTN\2°Cuatrimestre\(Lu-Mar)-Program&Lab II\Parcial ProgramLab\GonzalesFloresMauricioLuciano\Kwik E Mart App\obj\Debug\Kwik E Mart App.csproj.GenerateResource.cache
+D:\UTN\2°Cuatrimestre\(Lu-Mar)-Program&Lab II\Parcial ProgramLab\GonzalesFloresMauricioLuciano\Kwik E Mart App\obj\Debug\Kwik E Mart App.csproj.CoreCompileInputs.cache
+D:\UTN\2°Cuatrimestre\(Lu-Mar)-Program&Lab II\Parcial ProgramLab\GonzalesFloresMauricioLuciano\Kwik E Mart App\bin\Debug\Kwik E Mart App.exe.config
+D:\UTN\2°Cuatrimestre\(Lu-Mar)-Program&Lab II\Parcial ProgramLab\GonzalesFloresMauricioLuciano\Kwik E Mart App\bin\Debug\Kwik E Mart App.exe
+D:\UTN\2°Cuatrimestre\(Lu-Mar)-Program&Lab II\Parcial ProgramLab\GonzalesFloresMauricioLuciano\Kwik E Mart App\bin\Debug\Kwik E Mart App.pdb
+D:\UTN\2°Cuatrimestre\(Lu-Mar)-Program&Lab II\Parcial ProgramLab\GonzalesFloresMauricioLuciano\Kwik E Mart App\bin\Debug\Kwik E Mart.dll
+D:\UTN\2°Cuatrimestre\(Lu-Mar)-Program&Lab II\Parcial ProgramLab\GonzalesFloresMauricioLuciano\Kwik E Mart App\bin\Debug\Kwik E Mart.pdb
+D:\UTN\2°Cuatrimestre\(Lu-Mar)-Program&Lab II\Parcial ProgramLab\GonzalesFloresMauricioLuciano\Kwik E Mart App\obj\Debug\Kwik E Mart App.csproj.CopyComplete
+D:\UTN\2°Cuatrimestre\(Lu-Mar)-Program&Lab II\Parcial ProgramLab\GonzalesFloresMauricioLuciano\Kwik E Mart App\obj\Debug\Kwik E Mart App.exe
+D:\UTN\2°Cuatrimestre\(Lu-Mar)-Program&Lab II\Parcial ProgramLab\GonzalesFloresMauricioLuciano\Kwik E Mart App\obj\Debug\Kwik E Mart App.pdb
+D:\UTN\2°Cuatrimestre\(Lu-Mar)-Program&Lab II\Parcial ProgramLab\GonzalesFloresMauricioLuciano\Kwik E Mart App\obj\Debug\Kwik_E_Mart_App.FrmLogin.resources
+D:\UTN\2°Cuatrimestre\(Lu-Mar)-Program&Lab II\Parcial ProgramLab\GonzalesFloresMauricioLuciano\Kwik E Mart App\obj\Debug\Kwik_E_Mart_App.FrmCompras.resources
+D:\UTN\2°Cuatrimestre\(Lu-Mar)-Program&Lab II\Parcial ProgramLab\GonzalesFloresMauricioLuciano\Kwik E Mart App\obj\Debug\Kwik_E_Mart_App.FrmAdministracion.resources

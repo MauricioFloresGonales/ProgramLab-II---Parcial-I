@@ -56,9 +56,15 @@
             // dgvAlmacen
             // 
             this.dgvAlmacen.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
+            this.dgvAlmacen.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dgvAlmacen.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
+            this.dgvAlmacen.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             this.dgvAlmacen.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvAlmacen.EnableHeadersVisualStyles = false;
             this.dgvAlmacen.Location = new System.Drawing.Point(13, 13);
             this.dgvAlmacen.Name = "dgvAlmacen";
+            this.dgvAlmacen.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.dgvAlmacen.RowHeadersVisible = false;
             this.dgvAlmacen.RowHeadersWidth = 51;
             this.dgvAlmacen.RowTemplate.Height = 24;
             this.dgvAlmacen.Size = new System.Drawing.Size(869, 568);

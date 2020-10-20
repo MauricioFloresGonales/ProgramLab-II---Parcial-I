@@ -4,3 +4,9 @@ D:\UTN\2°Cuatrimestre\(Lu-Mar)-Program&Lab II\Parcial ProgramLab\GonzalesFlores
 D:\UTN\2°Cuatrimestre\(Lu-Mar)-Program&Lab II\Parcial ProgramLab\GonzalesFloresMauricioLuciano\Kwik E Mart\bin\Debug\Kwik E Mart.pdb
 D:\UTN\2°Cuatrimestre\(Lu-Mar)-Program&Lab II\Parcial ProgramLab\GonzalesFloresMauricioLuciano\Kwik E Mart\obj\Debug\Kwik E Mart.dll
 D:\UTN\2°Cuatrimestre\(Lu-Mar)-Program&Lab II\Parcial ProgramLab\GonzalesFloresMauricioLuciano\Kwik E Mart\obj\Debug\Kwik E Mart.pdb
+C:\Users\pipoca\Desktop\ProgramLab-II---Parcial-I\GonzalesFloresMauricioLuciano\Kwik E Mart\bin\Debug\Kwik E Mart.dll
+C:\Users\pipoca\Desktop\ProgramLab-II---Parcial-I\GonzalesFloresMauricioLuciano\Kwik E Mart\bin\Debug\Kwik E Mart.pdb
+C:\Users\pipoca\Desktop\ProgramLab-II---Parcial-I\GonzalesFloresMauricioLuciano\Kwik E Mart\obj\Debug\Kwik E Mart.csprojAssemblyReference.cache
+C:\Users\pipoca\Desktop\ProgramLab-II---Parcial-I\GonzalesFloresMauricioLuciano\Kwik E Mart\obj\Debug\Kwik E Mart.csproj.CoreCompileInputs.cache
+C:\Users\pipoca\Desktop\ProgramLab-II---Parcial-I\GonzalesFloresMauricioLuciano\Kwik E Mart\obj\Debug\Kwik E Mart.dll
+C:\Users\pipoca\Desktop\ProgramLab-II---Parcial-I\GonzalesFloresMauricioLuciano\Kwik E Mart\obj\Debug\Kwik E Mart.pdb

@@ -14,3 +14,19 @@ D:\UTN\2°Cuatrimestre\(Lu-Mar)-Program&Lab II\Parcial ProgramLab\GonzalesFlores
 D:\UTN\2°Cuatrimestre\(Lu-Mar)-Program&Lab II\Parcial ProgramLab\GonzalesFloresMauricioLuciano\Kwik E Mart App\obj\Debug\Kwik_E_Mart_App.FrmLogin.resources
 D:\UTN\2°Cuatrimestre\(Lu-Mar)-Program&Lab II\Parcial ProgramLab\GonzalesFloresMauricioLuciano\Kwik E Mart App\obj\Debug\Kwik_E_Mart_App.FrmCompras.resources
 D:\UTN\2°Cuatrimestre\(Lu-Mar)-Program&Lab II\Parcial ProgramLab\GonzalesFloresMauricioLuciano\Kwik E Mart App\obj\Debug\Kwik_E_Mart_App.FrmAdministracion.resources
+C:\Users\pipoca\Desktop\ProgramLab-II---Parcial-I\GonzalesFloresMauricioLuciano\Kwik E Mart App\bin\Debug\Kwik E Mart App.exe.config
+C:\Users\pipoca\Desktop\ProgramLab-II---Parcial-I\GonzalesFloresMauricioLuciano\Kwik E Mart App\bin\Debug\Kwik E Mart App.exe
+C:\Users\pipoca\Desktop\ProgramLab-II---Parcial-I\GonzalesFloresMauricioLuciano\Kwik E Mart App\bin\Debug\Kwik E Mart App.pdb
+C:\Users\pipoca\Desktop\ProgramLab-II---Parcial-I\GonzalesFloresMauricioLuciano\Kwik E Mart App\bin\Debug\Kwik E Mart.dll
+C:\Users\pipoca\Desktop\ProgramLab-II---Parcial-I\GonzalesFloresMauricioLuciano\Kwik E Mart App\bin\Debug\Kwik E Mart.pdb
+C:\Users\pipoca\Desktop\ProgramLab-II---Parcial-I\GonzalesFloresMauricioLuciano\Kwik E Mart App\obj\Debug\Kwik E Mart App.csprojAssemblyReference.cache
+C:\Users\pipoca\Desktop\ProgramLab-II---Parcial-I\GonzalesFloresMauricioLuciano\Kwik E Mart App\obj\Debug\Kwik_E_Mart_App.FrmAdministracion.resources
+C:\Users\pipoca\Desktop\ProgramLab-II---Parcial-I\GonzalesFloresMauricioLuciano\Kwik E Mart App\obj\Debug\Kwik_E_Mart_App.FrmCompras.resources
+C:\Users\pipoca\Desktop\ProgramLab-II---Parcial-I\GonzalesFloresMauricioLuciano\Kwik E Mart App\obj\Debug\Kwik_E_Mart_App.FrmLogin.resources
+C:\Users\pipoca\Desktop\ProgramLab-II---Parcial-I\GonzalesFloresMauricioLuciano\Kwik E Mart App\obj\Debug\Kwik_E_Mart_App.FrmPrincipal.resources
+C:\Users\pipoca\Desktop\ProgramLab-II---Parcial-I\GonzalesFloresMauricioLuciano\Kwik E Mart App\obj\Debug\Kwik_E_Mart_App.Properties.Resources.resources
+C:\Users\pipoca\Desktop\ProgramLab-II---Parcial-I\GonzalesFloresMauricioLuciano\Kwik E Mart App\obj\Debug\Kwik E Mart App.csproj.GenerateResource.cache
+C:\Users\pipoca\Desktop\ProgramLab-II---Parcial-I\GonzalesFloresMauricioLuciano\Kwik E Mart App\obj\Debug\Kwik E Mart App.csproj.CoreCompileInputs.cache
+C:\Users\pipoca\Desktop\ProgramLab-II---Parcial-I\GonzalesFloresMauricioLuciano\Kwik E Mart App\obj\Debug\Kwik E Mart App.csproj.CopyComplete
+C:\Users\pipoca\Desktop\ProgramLab-II---Parcial-I\GonzalesFloresMauricioLuciano\Kwik E Mart App\obj\Debug\Kwik E Mart App.exe
+C:\Users\pipoca\Desktop\ProgramLab-II---Parcial-I\GonzalesFloresMauricioLuciano\Kwik E Mart App\obj\Debug\Kwik E Mart App.pdb

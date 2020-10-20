@@ -27,13 +27,13 @@ namespace Kwik_E_Mart_App
 
         private void FrmCompras_Load(object sender, EventArgs e)
         {
-            dgvAlmacen.DataSource = FrmPrincipal.almacen;
-            dtgvCompras.DataSource = FrmPrincipal.clientes;
+            dgvAlmacen.DataSource = Supermercado.almacen;
+            dtgvCompras.DataSource = Supermercado.mostrarVentasDeUnCliente(Supermercado.clientes, Cliente.dameUnCliente(Supermercado.clientes, "homero"));
         }
 
         private void btnComprar_Click(object sender, EventArgs e)
         {
-            Supermercado.VentaDeMisProductos(FrmPrincipal.almacen, FrmPrincipal.clientes[0],new Venta(this.id,"",0,this.cantidad, false));
+            //Supermercado.VentaDeMisProductos(Supermercado.almacen, Supermercado.NuevoClientes(Supermercado.clientes, new Cliente("mauricio", "Gonzales")),new Venta(this.id,"",0,this.cantidad, false));
         }
 
         private void txtIdCompra_TextChanged(object sender, EventArgs e)

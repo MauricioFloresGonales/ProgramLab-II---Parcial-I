@@ -92,6 +92,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -111,6 +112,15 @@
       <Project>{eb671276-0ed4-422c-b111-26f2f469c7b3}</Project>
       <Name>Kwik E Mart</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\Logo-kwik-e-mart.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\inicio.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\Imagen - seguridad.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -25,15 +25,23 @@ namespace Kwik_E_Mart_App
 
         private void btnConfirmar_Click(object sender, EventArgs e)
         {
-            if(Validaciones.stringIsEqual(txtUsuario.Text,"mauricio") && 
-               Validaciones.stringIsEqual(txtContraseña.Text, "123"))
+            try
             {
-                FrmAdministracion frmAdmin = new FrmAdministracion();
-                if (frmAdmin.ShowDialog() == DialogResult.OK)
+                if (Supermercado.ValidarContraseña(Supermercado.empleados, txtUsuario.Text, txtContraseña.Text))
                 {
+                    FrmAdministracion frmAdmin = new FrmAdministracion();
+                    if (frmAdmin.ShowDialog() == DialogResult.OK)
+                    {
 
+                    }
                 }
+                
             }
+            catch (Exception)
+            {
+                MessageBox.Show("mensaje", "titulo");
+            }
+            
             
         }
     }

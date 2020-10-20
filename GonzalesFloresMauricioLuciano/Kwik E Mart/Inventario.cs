@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Kwik_E_Mart
 {
-    public class Almacen : Producto
+    public class Inventario : Producto
     {
         bool stock;
         public bool Stock
@@ -22,7 +22,7 @@ namespace Kwik_E_Mart
             else
                 return this.stock = true;
         }
-        public Almacen(int id, string descripcion, float precio, int cantidad) : base(id, descripcion, precio, cantidad)
+        public Inventario(int id, string descripcion, float precio, int cantidad) : base(id, descripcion, precio, cantidad)
         {
             ValidarStock();
         }
@@ -38,7 +38,7 @@ namespace Kwik_E_Mart
             this.ValidarStock();
             return true;
         }
-        public static bool operator +(Almacen productoActual, int cantidad)
+        public static bool operator +(Inventario productoActual, int cantidad)
         {
             int cantidadFinal = Producto.CantidadMinimaValida(cantidad);
             productoActual.Cantidad = productoActual.Cantidad + cantidadFinal;

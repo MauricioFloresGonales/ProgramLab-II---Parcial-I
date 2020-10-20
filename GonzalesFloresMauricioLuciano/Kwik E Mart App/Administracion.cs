@@ -29,12 +29,12 @@ namespace Kwik_E_Mart_App
 
         private void FrmAdministracion_Load(object sender, EventArgs e)
         {
-           dgvAlmacen.DataSource = FrmPrincipal.almacen;
+           dgvAlmacen.DataSource = Supermercado.almacen;
         }
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
-            Supermercado.NuevoProductoAlAlmacen(FrmPrincipal.almacen, new Almacen(this.id, this.descripcion, this.precio, this.cantidad));
+            Supermercado.NuevoProductoAlAlmacen(Supermercado.almacen, new Inventario(this.id, this.descripcion, this.precio, this.cantidad));
             
             /*
             int index = dgvAlmacen.Rows.Add();
@@ -49,7 +49,7 @@ namespace Kwik_E_Mart_App
         }
         private void btnRetirar_Click(object sender, EventArgs e)
         {
-            Supermercado.SacarProducto(FrmPrincipal.almacen, new Almacen(this.id, this.descripcion, this.precio, this.cantidad)) ;
+            Supermercado.SacarProducto(Supermercado.almacen, new Inventario(this.id, this.descripcion, this.precio, this.cantidad)) ;
         }
 
         private void txtId_TextChanged(object sender, EventArgs e)

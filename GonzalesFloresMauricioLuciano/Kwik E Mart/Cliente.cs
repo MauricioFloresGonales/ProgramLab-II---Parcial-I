@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -14,6 +15,10 @@ namespace Kwik_E_Mart
         {
             get { return simpson; }
         }
+        public List<Venta> Compras
+        {
+            get { return compras; }
+        }
         public Cliente(string nombre, string apellido) : base(nombre, apellido)
         {
             compras = new List<Venta>();
@@ -23,8 +28,6 @@ namespace Kwik_E_Mart
         }
         public bool Comprar(Venta producto)
         {
-            if (compras != null && producto != null)
-            {
                 compras.Add(new Venta(
                     producto.Id,
                     producto.Descripcion,
@@ -33,8 +36,6 @@ namespace Kwik_E_Mart
                     this.Simpson
                     ));
                 return true;
-            }
-            return false;
         }
         public int Devolver(Producto producto)
         {
@@ -52,6 +53,26 @@ namespace Kwik_E_Mart
                 }
             }
             return auxCantidad;
+        }
+        public string mostrarVentas()
+        {
+            StringBuilder sb = new StringBuilder();
+            foreach (Venta venta in this.Compras)
+            {
+                sb.Append(venta.ToString());
+            }
+            return sb.ToString();
+        }
+        static public Cliente dameUnCliente(List<Cliente> clientes, string nombre)
+        {
+            foreach (Cliente c in clientes)
+            {
+                if(Validaciones.stringIsEqual(c.Nombre, nombre))
+                {
+                    return c;
+                }
+            }
+            return null;
         }
     }
 }

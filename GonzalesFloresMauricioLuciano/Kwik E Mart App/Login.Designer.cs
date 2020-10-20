@@ -38,9 +38,9 @@
             // 
             // btnTerminar
             // 
-            this.btnTerminar.Location = new System.Drawing.Point(626, 380);
+            this.btnTerminar.Location = new System.Drawing.Point(190, 380);
             this.btnTerminar.Name = "btnTerminar";
-            this.btnTerminar.Size = new System.Drawing.Size(135, 44);
+            this.btnTerminar.Size = new System.Drawing.Size(146, 56);
             this.btnTerminar.TabIndex = 1;
             this.btnTerminar.Text = "Terminar";
             this.btnTerminar.UseVisualStyleBackColor = true;
@@ -48,7 +48,7 @@
             // 
             // btnConfirmar
             // 
-            this.btnConfirmar.Location = new System.Drawing.Point(304, 350);
+            this.btnConfirmar.Location = new System.Drawing.Point(190, 302);
             this.btnConfirmar.Name = "btnConfirmar";
             this.btnConfirmar.Size = new System.Drawing.Size(146, 56);
             this.btnConfirmar.TabIndex = 4;
@@ -58,7 +58,7 @@
             // 
             // txtUsuario
             // 
-            this.txtUsuario.Location = new System.Drawing.Point(295, 184);
+            this.txtUsuario.Location = new System.Drawing.Point(172, 192);
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(191, 22);
             this.txtUsuario.TabIndex = 2;
@@ -66,7 +66,7 @@
             // lblName
             // 
             this.lblName.AutoSize = true;
-            this.lblName.Location = new System.Drawing.Point(214, 187);
+            this.lblName.Location = new System.Drawing.Point(98, 195);
             this.lblName.Name = "lblName";
             this.lblName.Size = new System.Drawing.Size(57, 17);
             this.lblName.TabIndex = 3;
@@ -74,7 +74,7 @@
             // 
             // txtContraseña
             // 
-            this.txtContraseña.Location = new System.Drawing.Point(295, 243);
+            this.txtContraseña.Location = new System.Drawing.Point(172, 245);
             this.txtContraseña.Name = "txtContraseña";
             this.txtContraseña.PasswordChar = '*';
             this.txtContraseña.Size = new System.Drawing.Size(191, 22);
@@ -83,7 +83,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(208, 243);
+            this.label1.Location = new System.Drawing.Point(74, 245);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(81, 17);
             this.label1.TabIndex = 5;
@@ -93,8 +93,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(512, 494);
             this.ControlBox = false;
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtContraseña);
@@ -102,7 +103,9 @@
             this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.btnConfirmar);
             this.Controls.Add(this.btnTerminar);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "FrmLogin";
+            this.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
             this.ResumeLayout(false);

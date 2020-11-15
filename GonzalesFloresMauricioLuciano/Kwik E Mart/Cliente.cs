@@ -26,14 +26,14 @@ namespace Kwik_E_Mart
             this.apellido = apellido;
             this.simpson = Validaciones.stringIsEqual(apellido, "simpson");
         }
-        public bool Comprar(Venta producto)
+        public bool Comprar(int id, string descripcion, float precio, int cantidad)
         {
                 compras.Add(new Venta(
-                    producto.Id,
-                    producto.Descripcion,
-                    producto.Precio,
-                    producto.Cantidad,
-                    this.Simpson
+                    id,
+                    descripcion,
+                    precio,
+                    cantidad,
+                    false
                     ));
                 return true;
         }
@@ -59,7 +59,7 @@ namespace Kwik_E_Mart
             StringBuilder sb = new StringBuilder();
             foreach (Venta venta in this.Compras)
             {
-                sb.Append(venta.ToString());
+                sb.AppendLine(venta.ToString());
             }
             return sb.ToString();
         }

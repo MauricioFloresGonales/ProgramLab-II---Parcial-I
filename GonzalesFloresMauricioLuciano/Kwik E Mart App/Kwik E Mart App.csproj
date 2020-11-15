@@ -52,6 +52,18 @@
     <Compile Include="Administracion.Designer.cs">
       <DependentUpon>Administracion.cs</DependentUpon>
     </Compile>
+    <Compile Include="AgregarAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgregarAdmin.Designer.cs">
+      <DependentUpon>AgregarAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarCompra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgregarCompra.Designer.cs">
+      <DependentUpon>AgregarCompra.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,8 +84,26 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RetirarAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RetirarAdmin.Designer.cs">
+      <DependentUpon>RetirarAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RetirarCompra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RetirarCompra.Designer.cs">
+      <DependentUpon>RetirarCompra.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Administracion.resx">
       <DependentUpon>Administracion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgregarAdmin.resx">
+      <DependentUpon>AgregarAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgregarCompra.resx">
+      <DependentUpon>AgregarCompra.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Compras.resx">
       <DependentUpon>Compras.cs</DependentUpon>
@@ -94,6 +124,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="RetirarAdmin.resx">
+      <DependentUpon>RetirarAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RetirarCompra.resx">
+      <DependentUpon>RetirarCompra.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

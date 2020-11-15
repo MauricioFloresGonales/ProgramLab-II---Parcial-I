@@ -20,9 +20,6 @@ namespace Kwik_E_Mart_App
             Supermercado.cargarEmpleados();
 
         }
-        private void FrmPrincipal_Load(object sender, EventArgs e)
-        {
-        }
 
         private void btnAdministrar_Click(object sender, EventArgs e)
         {

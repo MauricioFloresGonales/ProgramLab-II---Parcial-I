@@ -35,11 +35,15 @@ namespace Kwik_E_Mart_App
 
                     }
                 }
+                else
+                {
+                    throw new MiExcepcion("El usuario o la contraseña son incorrectos");
+                }
                 
             }
-            catch (Exception)
+            catch (MiExcepcion err)
             {
-                MessageBox.Show("mensaje", "titulo");
+                MessageBox.Show(err.Message, "Error al loguearse");
             }
             
             

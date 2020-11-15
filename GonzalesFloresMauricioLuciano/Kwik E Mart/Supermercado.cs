@@ -50,8 +50,8 @@ namespace Kwik_E_Mart
             Supermercado.NuevoClientes(clientes, clienteUno);
             Supermercado.NuevoClientes(clientes, clienteDos);
 
-            Supermercado.VentaDeMisProductos(almacen, clienteUno, new Venta(1, "Cereales Krusty",2,1,true));
-            Supermercado.VentaDeMisProductos(almacen, clienteUno, new Venta(5, "Radioctive Man Comics,", 10, 1,true));
+            Supermercado.VentaDeMisProductos(almacen, clienteUno, 1,2);
+            Supermercado.VentaDeMisProductos(almacen, clienteUno,5, 10);
         }
         public static void cargarEmpleados()
         {
@@ -73,35 +73,72 @@ namespace Kwik_E_Mart
             listaEmpleados.Add(empleado);
             return true;
         }
-        public static bool VentaDeMisProductos(List<Inventario> listaDelAlmacen, Cliente cliente, Venta producto)
+        public static bool VentaDeMisProductos(List<Inventario> listaDelAlmacen, Cliente cliente, int id, int cantidad)
         {
             if(listaDelAlmacen != null && cliente!=null)
             {
-                foreach (Inventario venta in listaDelAlmacen)
+                foreach (Inventario inv in listaDelAlmacen)
                 {
-                    if (venta == producto)
+                    if (inv.Id == id)
                     {
-                        if(cliente.Comprar(producto))
-                        return venta.RestarProductos(producto.Cantidad);
+                        if(cantidad>inv.Cantidad)
+                        {
+                            if (cliente.Comprar(inv.Id, inv.Descripcion, inv.Precio, inv.Cantidad))
+                                return inv.RestarProductos(inv.Cantidad);
+                        }
+                        else
+                        {
+                            if (cliente.Comprar(inv.Id, inv.Descripcion, inv.Precio, cantidad))
+                                return inv.RestarProductos(cantidad);
+                        }
                     }
                 }
             }
             return false;
         }
-        public static bool DevolucionDeLaVenta(List<Inventario> listaDelAlmacen, Cliente cliente, Venta producto)
+        public static bool DevolucionDeLaVenta(List<Inventario> listaDelAlmacen, Cliente cliente, int id, int cantidad)
         {
+            bool retorno = false;
             if (listaDelAlmacen != null)
             {
                 foreach (Inventario almacen in listaDelAlmacen)
                 {
-                    if (almacen == producto)
+                    if (almacen.Id == id)
                     {
-                        return almacen + cliente.Devolver(producto);
+                        retorno = almacen + cantidad;
+                        break;
                     }
                 }
+                retorno = DevolucionDeCompra(cliente, id, cantidad);
             }
-            return false;
+            return retorno;
         }
+        public static bool DevolucionDeCompra(Cliente cliente, int id, int cantidad)
+        {
+            Venta auxVenta = null;
+            bool validador = false;
+            bool retorno = false;
+            if (cliente != null)
+            {
+                foreach (Venta v in cliente.Compras)
+                {
+                    if (v.Id == id)
+                    {
+                        v.RestarProductos(cantidad);
+                        if(v.Cantidad < 0)
+                        {
+                            auxVenta = v;
+                            validador = true;
+                        }
+                        break;
+                    }
+                }
+                if(validador != false)
+                    cliente.Compras.Remove(auxVenta);
+            }
+            return retorno;
+        }
+
         public static bool AgregarProducto(List<Inventario> listaDelAlmacen, Inventario nuevoProducto)
         {
             if (listaDelAlmacen != null)
@@ -118,15 +155,15 @@ namespace Kwik_E_Mart
             }
             return false;
         }
-        public static bool SacarProducto(List<Inventario> listaDelAlmacen, Inventario producto)
+        public static bool SacarProducto(List<Inventario> listaDelAlmacen, int id, int cantidad)
         {
             if (listaDelAlmacen != null)
             {
                 foreach (Inventario almacen in listaDelAlmacen)
                 {
-                    if (almacen == producto)
+                    if (almacen.Id == id)
                     {
-                        almacen.RestarProductos(producto.Cantidad);
+                        almacen.RestarProductos(cantidad);
                         return true;
                     }
                 }
@@ -152,16 +189,35 @@ namespace Kwik_E_Mart
             }
             return retorno;
         }
-        public static string mostrarVentasDeUnCliente(List<Cliente> clientes, Cliente unCliente)
+        public static List<Venta> mostrarVentasDeUnCliente(List<Cliente> clientes, Cliente unCliente)
         {
             foreach (Cliente c in clientes)
             {
                 if(Validaciones.stringIsEqual(c.Nombre,unCliente.Nombre))
                 {
-                    return c.mostrarVentas();
+                    return c.Compras;
                 }
             }
-            return "";
+            return null;
+        }
+        public static float SumaAPagar(List<Cliente> clientes, Cliente unCliente)
+        {
+            float final = 0;
+            foreach (Cliente c in clientes)
+            {
+                if (Validaciones.stringIsEqual(c.Nombre, unCliente.Nombre))
+                {
+                    foreach (Venta v in c.Compras)
+                    {
+                        final = final + v.PrecioFinal;
+                    }
+                }
+            }
+            return final;
+        }
+        public static void mostrarTicket(List<Venta> ventas, string fileName)
+        {
+            Archivos.CrearArchivoTxt(ventas, fileName);
         }
     }
 }

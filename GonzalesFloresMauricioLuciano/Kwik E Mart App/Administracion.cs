@@ -13,11 +13,6 @@ namespace Kwik_E_Mart_App
 {
     public partial class FrmAdministracion : Form
     {
-        int id;
-        string descripcion;
-        float precio;
-        int cantidad;
- 
         public FrmAdministracion()
         {
             InitializeComponent();
@@ -26,50 +21,31 @@ namespace Kwik_E_Mart_App
         {
             this.DialogResult = DialogResult.OK;
         }
-
+        private void actualizarData()
+        {
+            this.dgvAlmacen.DataSource = null;
+            this.dgvAlmacen.DataSource = Supermercado.almacen;
+        }
         private void FrmAdministracion_Load(object sender, EventArgs e)
         {
-           dgvAlmacen.DataSource = Supermercado.almacen;
+            this.actualizarData();
         }
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
-            Supermercado.NuevoProductoAlAlmacen(Supermercado.almacen, new Inventario(this.id, this.descripcion, this.precio, this.cantidad));
-            
-            /*
-            int index = dgvAlmacen.Rows.Add();
-            dgvAlmacen.Rows[index].Cells[0].Value = id.ToString();
-            dgvAlmacen.Rows[index].Cells[1].Value = cantidad;
-            dgvAlmacen.Rows[index].Cells[2].Value = precio.ToString();
-            dgvAlmacen.Rows[index].Cells[3].Value = cantidad.ToString() ;
-            txtId.Text = "";
-            txtDescripcion.Text = "";
-            txtPrecio.Text = "";
-            txtCantidad.Text = "";*/
+            frmAgregarAdmin frmAgregarAdmin = new frmAgregarAdmin();
+            if (frmAgregarAdmin.ShowDialog() == DialogResult.OK)
+            {
+                this.actualizarData();
+            }
         }
         private void btnRetirar_Click(object sender, EventArgs e)
         {
-            Supermercado.SacarProducto(Supermercado.almacen, new Inventario(this.id, this.descripcion, this.precio, this.cantidad)) ;
-        }
-
-        private void txtId_TextChanged(object sender, EventArgs e)
-        {
-            int.TryParse(this.txtId.Text, out this.id);
-        }
-
-        private void txtDescripcion_TextChanged(object sender, EventArgs e)
-        {
-            this.descripcion = this.txtDescripcion.Text;
-        }
-
-        private void txtPrecio_TextChanged(object sender, EventArgs e)
-        {
-            float.TryParse(this.txtPrecio.Text, out this.precio);
-        }
-
-        private void txtCantidad_TextChanged(object sender, EventArgs e)
-        {
-            int.TryParse(this.txtCantidad.Text, out this.cantidad);
+            frmRetirarAdmin frmRetirarAdmin = new frmRetirarAdmin();
+            if (frmRetirarAdmin.ShowDialog() == DialogResult.OK)
+            {
+                this.actualizarData();
+            }
         }
     }
 }

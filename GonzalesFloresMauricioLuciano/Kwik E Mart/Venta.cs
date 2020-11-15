@@ -36,8 +36,7 @@ namespace Kwik_E_Mart
         public override string ToString()
         {
             StringBuilder sb = new StringBuilder();
-            sb.Append(base.ToString());
-            sb.Append(this.descuento.ToString());
+            sb.AppendLine(base.ToString());
             return sb.ToString();
         }
     }

@@ -103,11 +103,11 @@ namespace Kwik_E_Mart
         {
             StringBuilder sb = new StringBuilder();
 
-            sb.Append(this.id.ToString());
-            sb.Append(this.descripcion);
-            sb.Append(this.precio.ToString());
-            sb.Append(this.cantidad.ToString());
-            sb.Append(this.precioFinal.ToString());
+            sb.AppendLine(string.Concat("id: ",this.id.ToString()));
+            sb.AppendLine(string.Concat("Producto: ",this.descripcion));
+            sb.AppendLine(string.Concat("Precio: ",this.precio.ToString()));
+            sb.AppendLine(string.Concat("Cantidad: ",this.cantidad.ToString()));
+            sb.AppendLine(string.Concat("Precio final: ",this.precioFinal.ToString()));
 
             return sb.ToString();
         }

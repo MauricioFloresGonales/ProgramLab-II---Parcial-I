@@ -31,21 +31,13 @@
             this.btnCerrar = new System.Windows.Forms.Button();
             this.dgvAlmacen = new System.Windows.Forms.DataGridView();
             this.btnAgregar = new System.Windows.Forms.Button();
-            this.txtId = new System.Windows.Forms.TextBox();
-            this.txtDescripcion = new System.Windows.Forms.TextBox();
-            this.txtPrecio = new System.Windows.Forms.TextBox();
-            this.txtCantidad = new System.Windows.Forms.TextBox();
-            this.lblId = new System.Windows.Forms.Label();
-            this.lblDescripcion = new System.Windows.Forms.Label();
-            this.lblPrecio = new System.Windows.Forms.Label();
-            this.lblCantidad = new System.Windows.Forms.Label();
             this.btnRetirar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAlmacen)).BeginInit();
             this.SuspendLayout();
             // 
             // btnCerrar
             // 
-            this.btnCerrar.Location = new System.Drawing.Point(1007, 465);
+            this.btnCerrar.Location = new System.Drawing.Point(888, 298);
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.Size = new System.Drawing.Size(144, 44);
             this.btnCerrar.TabIndex = 0;
@@ -72,7 +64,7 @@
             // 
             // btnAgregar
             // 
-            this.btnAgregar.Location = new System.Drawing.Point(1007, 393);
+            this.btnAgregar.Location = new System.Drawing.Point(888, 219);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(144, 44);
             this.btnAgregar.TabIndex = 5;
@@ -80,77 +72,9 @@
             this.btnAgregar.UseVisualStyleBackColor = true;
             this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
-            // txtId
-            // 
-            this.txtId.Location = new System.Drawing.Point(984, 113);
-            this.txtId.Name = "txtId";
-            this.txtId.Size = new System.Drawing.Size(190, 22);
-            this.txtId.TabIndex = 9;
-            this.txtId.TextChanged += new System.EventHandler(this.txtId_TextChanged);
-            // 
-            // txtDescripcion
-            // 
-            this.txtDescripcion.Location = new System.Drawing.Point(984, 161);
-            this.txtDescripcion.Name = "txtDescripcion";
-            this.txtDescripcion.Size = new System.Drawing.Size(190, 22);
-            this.txtDescripcion.TabIndex = 10;
-            this.txtDescripcion.TextChanged += new System.EventHandler(this.txtDescripcion_TextChanged);
-            // 
-            // txtPrecio
-            // 
-            this.txtPrecio.Location = new System.Drawing.Point(984, 206);
-            this.txtPrecio.Name = "txtPrecio";
-            this.txtPrecio.Size = new System.Drawing.Size(190, 22);
-            this.txtPrecio.TabIndex = 11;
-            this.txtPrecio.TextChanged += new System.EventHandler(this.txtPrecio_TextChanged);
-            // 
-            // txtCantidad
-            // 
-            this.txtCantidad.Location = new System.Drawing.Point(984, 255);
-            this.txtCantidad.Name = "txtCantidad";
-            this.txtCantidad.Size = new System.Drawing.Size(190, 22);
-            this.txtCantidad.TabIndex = 12;
-            this.txtCantidad.TextChanged += new System.EventHandler(this.txtCantidad_TextChanged);
-            // 
-            // lblId
-            // 
-            this.lblId.AutoSize = true;
-            this.lblId.Location = new System.Drawing.Point(924, 116);
-            this.lblId.Name = "lblId";
-            this.lblId.Size = new System.Drawing.Size(29, 17);
-            this.lblId.TabIndex = 13;
-            this.lblId.Text = "ID :";
-            // 
-            // lblDescripcion
-            // 
-            this.lblDescripcion.AutoSize = true;
-            this.lblDescripcion.Location = new System.Drawing.Point(888, 164);
-            this.lblDescripcion.Name = "lblDescripcion";
-            this.lblDescripcion.Size = new System.Drawing.Size(90, 17);
-            this.lblDescripcion.TabIndex = 14;
-            this.lblDescripcion.Text = "Descripcion :";
-            // 
-            // lblPrecio
-            // 
-            this.lblPrecio.AutoSize = true;
-            this.lblPrecio.Location = new System.Drawing.Point(913, 209);
-            this.lblPrecio.Name = "lblPrecio";
-            this.lblPrecio.Size = new System.Drawing.Size(56, 17);
-            this.lblPrecio.TabIndex = 15;
-            this.lblPrecio.Text = "Precio :";
-            // 
-            // lblCantidad
-            // 
-            this.lblCantidad.AutoSize = true;
-            this.lblCantidad.Location = new System.Drawing.Point(904, 260);
-            this.lblCantidad.Name = "lblCantidad";
-            this.lblCantidad.Size = new System.Drawing.Size(65, 17);
-            this.lblCantidad.TabIndex = 16;
-            this.lblCantidad.Text = "Canridad";
-            // 
             // btnRetirar
             // 
-            this.btnRetirar.Location = new System.Drawing.Point(1007, 331);
+            this.btnRetirar.Location = new System.Drawing.Point(888, 143);
             this.btnRetirar.Name = "btnRetirar";
             this.btnRetirar.Size = new System.Drawing.Size(144, 44);
             this.btnRetirar.TabIndex = 6;
@@ -163,16 +87,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(1209, 595);
+            this.ClientSize = new System.Drawing.Size(1080, 595);
             this.ControlBox = false;
-            this.Controls.Add(this.lblCantidad);
-            this.Controls.Add(this.lblPrecio);
-            this.Controls.Add(this.lblDescripcion);
-            this.Controls.Add(this.lblId);
-            this.Controls.Add(this.txtCantidad);
-            this.Controls.Add(this.txtPrecio);
-            this.Controls.Add(this.txtDescripcion);
-            this.Controls.Add(this.txtId);
             this.Controls.Add(this.btnRetirar);
             this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.dgvAlmacen);
@@ -184,7 +100,6 @@
             this.Load += new System.EventHandler(this.FrmAdministracion_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvAlmacen)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -193,14 +108,6 @@
         private System.Windows.Forms.Button btnCerrar;
         private System.Windows.Forms.DataGridView dgvAlmacen;
         private System.Windows.Forms.Button btnAgregar;
-        private System.Windows.Forms.TextBox txtId;
-        private System.Windows.Forms.TextBox txtDescripcion;
-        private System.Windows.Forms.TextBox txtPrecio;
-        private System.Windows.Forms.TextBox txtCantidad;
-        private System.Windows.Forms.Label lblId;
-        private System.Windows.Forms.Label lblDescripcion;
-        private System.Windows.Forms.Label lblPrecio;
-        private System.Windows.Forms.Label lblCantidad;
         private System.Windows.Forms.Button btnRetirar;
     }
 }

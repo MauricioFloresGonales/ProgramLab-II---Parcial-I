@@ -30,3 +30,7 @@ C:\Users\pipoca\Desktop\ProgramLab-II---Parcial-I\GonzalesFloresMauricioLuciano\
 C:\Users\pipoca\Desktop\ProgramLab-II---Parcial-I\GonzalesFloresMauricioLuciano\Kwik E Mart App\obj\Debug\Kwik E Mart App.csproj.CopyComplete
 C:\Users\pipoca\Desktop\ProgramLab-II---Parcial-I\GonzalesFloresMauricioLuciano\Kwik E Mart App\obj\Debug\Kwik E Mart App.exe
 C:\Users\pipoca\Desktop\ProgramLab-II---Parcial-I\GonzalesFloresMauricioLuciano\Kwik E Mart App\obj\Debug\Kwik E Mart App.pdb
+C:\Users\pipoca\Desktop\ProgramLab-II---Parcial-I\GonzalesFloresMauricioLuciano\Kwik E Mart App\obj\Debug\Kwik_E_Mart_App.frmAgregarAdmin.resources
+C:\Users\pipoca\Desktop\ProgramLab-II---Parcial-I\GonzalesFloresMauricioLuciano\Kwik E Mart App\obj\Debug\Kwik_E_Mart_App.frmRetirarAdmin.resources
+C:\Users\pipoca\Desktop\ProgramLab-II---Parcial-I\GonzalesFloresMauricioLuciano\Kwik E Mart App\obj\Debug\Kwik_E_Mart_App.FrmAgregarCompra.resources
+C:\Users\pipoca\Desktop\ProgramLab-II---Parcial-I\GonzalesFloresMauricioLuciano\Kwik E Mart App\obj\Debug\Kwik_E_Mart_App.RetirarCompra.resources

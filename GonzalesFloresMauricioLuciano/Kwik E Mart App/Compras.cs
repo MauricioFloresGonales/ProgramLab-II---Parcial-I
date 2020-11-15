@@ -13,8 +13,6 @@ namespace Kwik_E_Mart_App
 {
     public partial class FrmCompras : Form
     {
-        int id;
-        int cantidad;
         public FrmCompras()
         {
             InitializeComponent();
@@ -22,28 +20,49 @@ namespace Kwik_E_Mart_App
 
         private void btnCerrar_Click(object sender, EventArgs e)
         {
-            this.DialogResult = DialogResult.OK;
-        }
+            
 
+            DialogResult result = MessageBox.Show("Deseas un ticket de tus compras?", "ticket?", MessageBoxButtons.YesNo);
+
+            if (result == DialogResult.Yes)
+            {
+                Supermercado.mostrarTicket(Supermercado.clientes.ElementAt(0).Compras, "Ticket.txt");
+                this.DialogResult = DialogResult.OK;
+            }
+            else if (result == DialogResult.No)
+            {
+                this.DialogResult = DialogResult.OK;
+            }
+        }
+        private void actualizarData()
+        {
+            this.dgvAlmacen.DataSource = null;
+            this.dgvAlmacen.DataSource = Supermercado.almacen;
+            this.dtgvCompras.DataSource = null;
+            this.dtgvCompras.DataSource = Supermercado.mostrarVentasDeUnCliente(Supermercado.clientes, Cliente.dameUnCliente(Supermercado.clientes, "homero"));
+            this.lblAPagar.Text = "Precio final : " + Supermercado.SumaAPagar(Supermercado.clientes, Supermercado.clientes.ElementAt(0)).ToString();
+        }
         private void FrmCompras_Load(object sender, EventArgs e)
         {
-            dgvAlmacen.DataSource = Supermercado.almacen;
-            dtgvCompras.DataSource = Supermercado.mostrarVentasDeUnCliente(Supermercado.clientes, Cliente.dameUnCliente(Supermercado.clientes, "homero"));
+            this.actualizarData();
         }
 
         private void btnComprar_Click(object sender, EventArgs e)
         {
-            //Supermercado.VentaDeMisProductos(Supermercado.almacen, Supermercado.NuevoClientes(Supermercado.clientes, new Cliente("mauricio", "Gonzales")),new Venta(this.id,"",0,this.cantidad, false));
+            FrmAgregarCompra frmAgregarCompra = new FrmAgregarCompra();
+            if (frmAgregarCompra.ShowDialog() == DialogResult.OK)
+            {
+                this.actualizarData();
+            }
         }
 
-        private void txtIdCompra_TextChanged(object sender, EventArgs e)
+        private void btnDevolver_Click(object sender, EventArgs e)
         {
-            int.TryParse(this.txtIdCompra.Text, out id);
-        }
-
-        private void txtCantidad_TextChanged(object sender, EventArgs e)
-        {
-            int.TryParse(this.txtCantidad.Text, out id);
+            RetirarCompra retirarCompra = new RetirarCompra();
+            if (retirarCompra.ShowDialog() == DialogResult.OK)
+            {
+                this.actualizarData();
+            }
         }
     }
 }

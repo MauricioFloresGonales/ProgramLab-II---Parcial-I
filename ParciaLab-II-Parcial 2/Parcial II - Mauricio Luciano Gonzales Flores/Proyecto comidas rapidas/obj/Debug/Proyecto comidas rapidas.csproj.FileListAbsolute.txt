@@ -1,0 +1,6 @@
+C:\Users\pipoca\Desktop\ParciaLab-II\Parcial II - Mauricio Luciano Gonzales Flores\Proyecto comidas rapidas\obj\Debug\Proyecto comidas rapidas.csprojAssemblyReference.cache
+C:\Users\pipoca\Desktop\ParciaLab-II\Parcial II - Mauricio Luciano Gonzales Flores\Proyecto comidas rapidas\obj\Debug\Proyecto comidas rapidas.csproj.CoreCompileInputs.cache
+C:\Users\pipoca\Desktop\ParciaLab-II\Parcial II - Mauricio Luciano Gonzales Flores\Proyecto comidas rapidas\bin\Debug\Proyecto comidas rapidas.dll
+C:\Users\pipoca\Desktop\ParciaLab-II\Parcial II - Mauricio Luciano Gonzales Flores\Proyecto comidas rapidas\bin\Debug\Proyecto comidas rapidas.pdb
+C:\Users\pipoca\Desktop\ParciaLab-II\Parcial II - Mauricio Luciano Gonzales Flores\Proyecto comidas rapidas\obj\Debug\Proyecto comidas rapidas.dll
+C:\Users\pipoca\Desktop\ParciaLab-II\Parcial II - Mauricio Luciano Gonzales Flores\Proyecto comidas rapidas\obj\Debug\Proyecto comidas rapidas.pdb

@@ -1,0 +1,13 @@
+C:\Users\pipoca\Desktop\ProgramLab-Parcial 2\ProgramLab II - Pedidos\AppPedidos\bin\Debug\AppPedidos.exe.config
+C:\Users\pipoca\Desktop\ProgramLab-Parcial 2\ProgramLab II - Pedidos\AppPedidos\bin\Debug\AppPedidos.exe
+C:\Users\pipoca\Desktop\ProgramLab-Parcial 2\ProgramLab II - Pedidos\AppPedidos\bin\Debug\AppPedidos.pdb
+C:\Users\pipoca\Desktop\ProgramLab-Parcial 2\ProgramLab II - Pedidos\AppPedidos\bin\Debug\Entidades.dll
+C:\Users\pipoca\Desktop\ProgramLab-Parcial 2\ProgramLab II - Pedidos\AppPedidos\bin\Debug\Entidades.pdb
+C:\Users\pipoca\Desktop\ProgramLab-Parcial 2\ProgramLab II - Pedidos\AppPedidos\obj\Debug\AppPedidos.csprojAssemblyReference.cache
+C:\Users\pipoca\Desktop\ProgramLab-Parcial 2\ProgramLab II - Pedidos\AppPedidos\obj\Debug\AppPedidos.Properties.Resources.resources
+C:\Users\pipoca\Desktop\ProgramLab-Parcial 2\ProgramLab II - Pedidos\AppPedidos\obj\Debug\AppPedidos.csproj.GenerateResource.cache
+C:\Users\pipoca\Desktop\ProgramLab-Parcial 2\ProgramLab II - Pedidos\AppPedidos\obj\Debug\AppPedidos.csproj.CoreCompileInputs.cache
+C:\Users\pipoca\Desktop\ProgramLab-Parcial 2\ProgramLab II - Pedidos\AppPedidos\obj\Debug\AppPedidos.csproj.CopyComplete
+C:\Users\pipoca\Desktop\ProgramLab-Parcial 2\ProgramLab II - Pedidos\AppPedidos\obj\Debug\AppPedidos.exe
+C:\Users\pipoca\Desktop\ProgramLab-Parcial 2\ProgramLab II - Pedidos\AppPedidos\obj\Debug\AppPedidos.pdb
+C:\Users\pipoca\Desktop\ProgramLab-Parcial 2\ProgramLab II - Pedidos\AppPedidos\obj\Debug\AppPedidos.Form1.resources
